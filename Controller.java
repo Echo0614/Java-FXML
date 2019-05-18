@@ -20,6 +20,6 @@ public class Controller implements Initializable
 	//initialize is a method that runs right after the view is loaded
 	public void initialize(URL location, ResourceBundle resources)
 	{
-
+		system.out.println("Loading user data...");
 	}
 }
