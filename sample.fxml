@@ -5,6 +5,7 @@
       fx:controller="sample.Controller">
     
     <Label text="I love bacon"/>
-    <Button text="Submit"/>
+      
+    <Button text="Submit" fx:id="someButton" onAction = "#handleButtonClicked"/> 
     
 </VBox>
