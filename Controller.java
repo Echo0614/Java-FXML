@@ -17,6 +17,7 @@ public class Controller implements Initializable
 		someButton.setText("Stop clicking me!");
 	}
 	
+	//initialize is a method that runs right after the view is loaded
 	public void initialize(URL location, ResourceBundle resources)
 	{
 
