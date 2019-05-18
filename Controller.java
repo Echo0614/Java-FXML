@@ -6,7 +6,7 @@ import javafx.scene.control.Button;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class Controller
+public class Controller implements Initializable
 {
 	public Button someButton; //refers to the id in sample.fxml
 	
@@ -15,5 +15,10 @@ public class Controller
 	{
 		System.out.println("Print out in terminal");
 		someButton.setText("Stop clicking me!");
+	}
+	
+	public void initialize(URL location, ResourceBundle resources)
+	{
+
 	}
 }
